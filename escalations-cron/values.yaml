@@ -1,0 +1,9 @@
+image:
+  repository: myacr.azurecr.io/escalations-cron
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+schedule: "0 * * * *" # every hour
+
+env:
+  COMMIT_HASH: "replace-me"

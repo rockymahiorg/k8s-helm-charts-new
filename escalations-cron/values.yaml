@@ -1,6 +1,6 @@
 image:
   repository: myacr.azurecr.io/escalations-cron
-  tag: "latest"
+  tag: "adca7f0"
   pullPolicy: IfNotPresent
 
 schedule: "0 * * * *" # every hour
